@@ -11,13 +11,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css"
-      integrity="sha512-gA2Bvu0/hw4oj0Lp8ZHjK+o3S4BE5m8d/wNVy6ktKLhHKPpWLQwv9ixzuWirWOakoJqlBdePq2NhoCaUOQ5npQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -51,23 +44,28 @@
         <address class="address">
           <ul class="header-soc">
             <li class="header-soc-item">
-              <a class="header-menu-list" href="mailto:info@devstudio.com">
+              <a class="header-menu-adress" href="mailto:info@devstudio.com">
                 info@devstudio.com</a
               >
             </li>
             <li class="header-soc-item">
-              <a class="header-menu-list" href="tel:+110001111111">
+              <a class="header-menu-adress" href="tel:+110001111111">
                 +11 (000) 111-11-11</a
               >
             </li>
           </ul>
         </address>
+        <button type="button" class="menu-open">
+          <svg width="24" height="24">
+            <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
     <main>
       <!-- Effect Sol -->
-      <section class="solutions">
+      <section class="solutions hide">
         <div class="container">
           <h1 class="solutions-title">Effective Solutions for Your Business</h1>
           <button class="solutions-btn" type="button">Order Service</button>
@@ -75,7 +73,7 @@
       </section>
       <!-- Advantages -->
 
-      <section class="advantages">
+      <section class="advantages hide">
         <div class="container">
           <h2 class="visually-hidden">Наші переваги</h2>
 
@@ -137,7 +135,7 @@
         </div>
       </section>
       <!-- OUR TEAM -->
-      <section class="our-team">
+      <section class="our-team hide">
         <div class="container">
           <h2 class="our-team-title section-title">Our Team</h2>
           <ul class="our-team-list">
@@ -309,7 +307,7 @@
         </div>
       </section>
       <!-- OUR PORFOLIO -->
-      <section class="portfolio">
+      <section class="portfolio hide">
         <div class="container">
           <h2 class="portfolio-title">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -432,7 +430,7 @@
       </section>
     </main>
     <!-- Футер -->
-    <footer class="footer">
+    <footer class="footer hide">
       <div class="footer-container container">
         <div class="footer-container-logo">
           <a class="footer-logo" href="./index.html"
