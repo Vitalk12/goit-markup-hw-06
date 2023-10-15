@@ -870,7 +870,8 @@ padding-bottom: 24px;
     margin: 0 auto;
   }
   .portfolio-list-item {
-    width: calc((100%-144px) / 2);
+    max-width: 100%;
+   flex-basis:  calc((100% - 24px) / 2);
   }
      
   .footer-container{
